@@ -24,6 +24,6 @@ config/blocklist_songs.txt
 config/playlists/
 media/
 
-docker-compose.yml
+# docker-compose.yml
 
 /env*/

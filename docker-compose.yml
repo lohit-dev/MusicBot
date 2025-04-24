@@ -1,0 +1,10 @@
+services:
+  musicbot:
+    build:
+      context: .
+      dockerfile: /Dockerfile
+    volumes:
+      - ./config:/musicbot/config/
+      - ./audio_cache:/musicbot/audio_cache
+      - ./data:/musicbot/data
+      - ./logs:/musicbot/logs
